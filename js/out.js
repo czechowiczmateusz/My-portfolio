@@ -10108,33 +10108,58 @@ var App = function (_React$Component) {
                         { className: "container" },
                         _react2.default.createElement(
                             "div",
-                            null,
-                            "MC"
-                        ),
-                        _react2.default.createElement(
-                            "nav",
-                            null,
+                            { className: "menu" },
                             _react2.default.createElement(
-                                "ul",
+                                "div",
+                                null,
+                                "MC"
+                            ),
+                            _react2.default.createElement(
+                                "nav",
                                 null,
                                 _react2.default.createElement(
-                                    "li",
+                                    "ul",
                                     null,
                                     _react2.default.createElement(
-                                        "a",
-                                        { target: "_blank", href: "https://www.linkedin.com/in/mczechowicz/" },
-                                        _react2.default.createElement("i", { className: "fab fa-linkedin-in" })
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    "li",
-                                    null,
+                                        "li",
+                                        null,
+                                        _react2.default.createElement(
+                                            "a",
+                                            { target: "_blank", href: "https://www.linkedin.com/in/mczechowicz/" },
+                                            _react2.default.createElement("i", { className: "fab fa-linkedin-in" })
+                                        )
+                                    ),
                                     _react2.default.createElement(
-                                        "a",
-                                        { target: "_blank", href: "https://github.com/czechowiczmateusz/" },
-                                        _react2.default.createElement("i", { className: "fab fa-github" })
+                                        "li",
+                                        null,
+                                        _react2.default.createElement(
+                                            "a",
+                                            { target: "_blank", href: "https://github.com/czechowiczmateusz/" },
+                                            _react2.default.createElement("i", { className: "fab fa-github" })
+                                        )
                                     )
                                 )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "about" },
+                            _react2.default.createElement(
+                                "h1",
+                                null,
+                                "About me"
+                            ),
+                            _react2.default.createElement("hr", { width: "50%" }),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                "I'm looking for a job as Junior Frontend Developer. I finished a course of programming JavaScript: React in Coder's Lab (",
+                                _react2.default.createElement(
+                                    "a",
+                                    { target: "_blank", href: "https://coderslab.pl/en/javascript-developer-react" },
+                                    "https://coderslab.pl/en/javascript-developer-react"
+                                ),
+                                ") - the school for developers. I'm fascinated with programming so I'd like to further develop in this field, I'm looking for a job where I can deepen and expand my knowledge in JavaScript and surrounding technologies. Currently I'm learning AngularJS."
                             )
                         )
                     )
@@ -10146,19 +10171,11 @@ var App = function (_React$Component) {
                         "div",
                         { className: "container" },
                         _react2.default.createElement(
-                            "div",
+                            "h2",
                             null,
-                            _react2.default.createElement(
-                                "h1",
-                                null,
-                                "About me"
-                            ),
-                            _react2.default.createElement(
-                                "p",
-                                null,
-                                "I'm looking for a job as Junior Frontend Developer. I finished a course of programming JavaScript: React in Coder's Lab (https://coderslab.pl/en/javascript-developer-react) - the school for developers. I'm fascinated with programming so I'd like to further develop in this field, I'm looking for a job where I can deepen and expand my knowledge in JavaScript and surrounding technologies. Currently I'm learning AngularJS."
-                            )
-                        )
+                            "Skills"
+                        ),
+                        _react2.default.createElement("hr", { width: "50%" })
                     )
                 )
             );
@@ -22685,7 +22702,7 @@ exports = module.exports = __webpack_require__(188)(undefined);
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\nheader {\n  display: flex;\n  justify-content: center;\n  height: 100px;\n  align-items: center;\n  background-color: #16253D;\n  color: #EFB509; }\n  header .container {\n    width: 1500px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center; }\n    header .container div {\n      width: 50px;\n      height: 50px;\n      border: 2px solid black;\n      transition: transform .6s ease-in-out;\n      display: flex;\n      justify-content: center;\n      align-items: center; }\n      header .container div:hover {\n        transform: rotate(360deg);\n        color: #CD7213; }\n    header .container ul {\n      display: flex;\n      width: 50px;\n      justify-content: space-between; }\n      header .container ul a:link, header .container ul a:hover, header .container ul a:active, header .container ul a:visited {\n        color: #EFB509; }\n        header .container ul a:link:hover, header .container ul a:hover:hover, header .container ul a:active:hover, header .container ul a:visited:hover {\n          color: #CD7213; }\n\nmain {\n  height: 90vh;\n  background-color: #16253D;\n  color: #EFB509;\n  display: flex;\n  justify-content: center; }\n  main .container {\n    width: 1500px;\n    display: flex;\n    flex-direction: column; }\n    main .container div {\n      height: 300px;\n      width: 500px; }\n      main .container div h1 {\n        text-align: center;\n        text-transform: uppercase;\n        font-size: 50px; }\n      main .container div p {\n        text-align: justify;\n        font-size: 20px; }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\na:link, a:hover, a:active, a:visited {\n  color: inherit;\n  text-decoration: none; }\n\nbody {\n  background-color: #f6f1ed;\n  color: #3b3a36; }\n\nheader {\n  display: flex;\n  justify-content: center;\n  height: 100vh;\n  width: auto;\n  align-items: flex-start;\n  color: #CD7213; }\n  header .container {\n    width: 600px;\n    display: flex;\n    flex-direction: column; }\n    header .container .menu {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      padding-top: 20px;\n      font-size: 20px; }\n      header .container .menu div {\n        width: 50px;\n        height: 50px;\n        border: 2px solid black;\n        transition: transform .6s ease-in-out;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container .menu div:hover {\n          transform: rotate(360deg); }\n      header .container .menu ul {\n        display: flex;\n        width: 50px;\n        justify-content: space-between; }\n        header .container .menu ul a:link, header .container .menu ul a:hover, header .container .menu ul a:active, header .container .menu ul a:visited {\n          color: #EFB509; }\n          header .container .menu ul a:link:hover, header .container .menu ul a:hover:hover, header .container .menu ul a:active:hover, header .container .menu ul a:visited:hover {\n            color: #CD7213; }\n    header .container .about {\n      text-align: justify;\n      color: #3b3a36;\n      margin-top: 100px; }\n      header .container .about h1 {\n        text-align: center;\n        text-transform: uppercase;\n        font-size: 80px; }\n      header .container .about p {\n        text-align: justify;\n        font-size: 40px; }\n\nmain {\n  display: flex;\n  justify-content: center;\n  height: 100vh; }\n  main .container {\n    width: 600px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    main .container h2 {\n      font-size: 80px;\n      text-transform: uppercase; }\n", ""]);
 
 // exports
 
