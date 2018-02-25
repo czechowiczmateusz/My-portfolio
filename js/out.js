@@ -10153,7 +10153,7 @@ var App = function (_React$Component) {
                             _react2.default.createElement(
                                 "p",
                                 null,
-                                "I'm looking for a job as Junior Frontend Developer. I finished a course of programming JavaScript: React in Coder's Lab (",
+                                "My name is Mateusz Czechowicz. I'm looking for a job as Junior Frontend Developer. I finished a course of programming JavaScript: React in Coder's Lab (",
                                 _react2.default.createElement(
                                     "a",
                                     { target: "_blank", href: "https://coderslab.pl/en/javascript-developer-react" },
@@ -10173,9 +10173,90 @@ var App = function (_React$Component) {
                         _react2.default.createElement(
                             "h2",
                             null,
-                            "Skills"
+                            "Technologies"
                         ),
-                        _react2.default.createElement("hr", { width: "50%" })
+                        _react2.default.createElement("hr", { width: "50%" }),
+                        _react2.default.createElement("i", { className: "fab fa-html5 fa-10x" }),
+                        _react2.default.createElement("i", { className: "fab fa-css3-alt fa-10x" }),
+                        _react2.default.createElement("i", { className: "fab fa-js-square fa-10x" }),
+                        _react2.default.createElement("i", { className: "fab fa-sass fa-10x" }),
+                        _react2.default.createElement("i", { className: "fab fa-react fa-10x" }),
+                        _react2.default.createElement("i", { className: "fab fa-angular fa-10x" }),
+                        _react2.default.createElement("i", { className: "fab fa-github fa-10x" }),
+                        _react2.default.createElement("i", { className: "fab fa-gulp fa-10x" }),
+                        _react2.default.createElement("i", { className: "fab fa-npm fa-10x" })
+                    )
+                ),
+                _react2.default.createElement(
+                    "article",
+                    null,
+                    _react2.default.createElement(
+                        "div",
+                        { className: "container" },
+                        _react2.default.createElement(
+                            "h3",
+                            null,
+                            "Projects"
+                        ),
+                        _react2.default.createElement("hr", { width: "50%" }),
+                        _react2.default.createElement(
+                            "h4",
+                            null,
+                            "Film-search-app"
+                        ),
+                        _react2.default.createElement("img", { src: "./styles/images/film-search-app.png" }),
+                        _react2.default.createElement(
+                            "h4",
+                            null,
+                            "Tomorrowland-page"
+                        ),
+                        _react2.default.createElement("img", { src: "./styles/images/tomorrowland-page.png", alt: "" })
+                    )
+                ),
+                _react2.default.createElement(
+                    "footer",
+                    null,
+                    _react2.default.createElement(
+                        "div",
+                        { className: "container" },
+                        _react2.default.createElement(
+                            "h5",
+                            null,
+                            "Contact"
+                        ),
+                        _react2.default.createElement("hr", { width: "50%" }),
+                        _react2.default.createElement("i", { className: "fas fa-phone fa-2x" }),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "+48 531 323 377"
+                        ),
+                        _react2.default.createElement("i", { className: "far fa-envelope fa-2x" }),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            "matic1.czechowicz@gmail.com"
+                        ),
+                        _react2.default.createElement("i", { className: "fab fa-github fa-2x" }),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            _react2.default.createElement(
+                                "a",
+                                { target: "_blank", href: "https://github.com/czechowiczmateusz/" },
+                                "https://github.com/czechowiczmateusz/"
+                            )
+                        ),
+                        _react2.default.createElement("i", { className: "fab fa-linkedin-in fa-2x" }),
+                        _react2.default.createElement(
+                            "p",
+                            null,
+                            _react2.default.createElement(
+                                "a",
+                                { target: "_blank", href: "https://www.linkedin.com/in/mczechowicz/" },
+                                "https://www.linkedin.com/in/mczechowicz/"
+                            )
+                        )
                     )
                 )
             );
@@ -22702,7 +22783,7 @@ exports = module.exports = __webpack_require__(188)(undefined);
 
 
 // module
-exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\na:link, a:hover, a:active, a:visited {\n  color: inherit;\n  text-decoration: none; }\n\nbody {\n  background-color: #f6f1ed;\n  color: #3b3a36; }\n\nheader {\n  display: flex;\n  justify-content: center;\n  height: 100vh;\n  width: auto;\n  align-items: flex-start;\n  color: #CD7213; }\n  header .container {\n    width: 600px;\n    display: flex;\n    flex-direction: column; }\n    header .container .menu {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      padding-top: 20px;\n      font-size: 20px; }\n      header .container .menu div {\n        width: 50px;\n        height: 50px;\n        border: 2px solid black;\n        transition: transform .6s ease-in-out;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container .menu div:hover {\n          transform: rotate(360deg); }\n      header .container .menu ul {\n        display: flex;\n        width: 50px;\n        justify-content: space-between; }\n        header .container .menu ul a:link, header .container .menu ul a:hover, header .container .menu ul a:active, header .container .menu ul a:visited {\n          color: #EFB509; }\n          header .container .menu ul a:link:hover, header .container .menu ul a:hover:hover, header .container .menu ul a:active:hover, header .container .menu ul a:visited:hover {\n            color: #CD7213; }\n    header .container .about {\n      text-align: justify;\n      color: #3b3a36;\n      margin-top: 100px; }\n      header .container .about h1 {\n        text-align: center;\n        text-transform: uppercase;\n        font-size: 80px; }\n      header .container .about p {\n        text-align: justify;\n        font-size: 40px; }\n\nmain {\n  display: flex;\n  justify-content: center;\n  height: 100vh; }\n  main .container {\n    width: 600px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    main .container h2 {\n      font-size: 80px;\n      text-transform: uppercase; }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\n/* HTML5 display-role reset for older browsers */\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after {\n  content: '';\n  content: none; }\n\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\na:link, a:hover, a:active, a:visited {\n  color: inherit;\n  text-decoration: none; }\n\nbody {\n  background-color: #f6f1ed;\n  color: #3b3a36;\n  font-family: 'Nanum Brush Script', cursive; }\n\nheader {\n  display: flex;\n  justify-content: center;\n  height: 60vh;\n  width: auto;\n  align-items: flex-start;\n  color: #CD7213; }\n  header .container {\n    width: 600px;\n    display: flex;\n    flex-direction: column; }\n    header .container .menu {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      padding-top: 20px;\n      font-size: 20px; }\n      header .container .menu div {\n        width: 50px;\n        height: 50px;\n        border: 2px solid black;\n        transition: transform .6s ease-in-out;\n        display: flex;\n        justify-content: center;\n        align-items: center; }\n        header .container .menu div:hover {\n          transform: rotate(360deg); }\n      header .container .menu ul {\n        display: flex;\n        width: 50px;\n        justify-content: space-between; }\n        header .container .menu ul a:link, header .container .menu ul a:hover, header .container .menu ul a:active, header .container .menu ul a:visited {\n          color: #EFB509; }\n          header .container .menu ul a:link:hover, header .container .menu ul a:hover:hover, header .container .menu ul a:active:hover, header .container .menu ul a:visited:hover {\n            color: #CD7213; }\n    header .container .about {\n      text-align: justify;\n      color: #3b3a36;\n      margin-top: 100px; }\n      header .container .about h1 {\n        text-align: center;\n        text-transform: uppercase;\n        font-size: 80px; }\n      header .container .about p {\n        text-align: justify;\n        font-size: 40px; }\n\nmain {\n  display: flex;\n  justify-content: center;\n  height: 100vh; }\n  main .container {\n    width: 600px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    main .container h2 {\n      text-transform: uppercase;\n      font-size: 80px; }\n    main .container hr {\n      margin-bottom: 40px; }\n    main .container .fa-html5 {\n      color: #f21422; }\n    main .container .fa-css3-alt {\n      color: #5a00e0; }\n    main .container .fa-js-square {\n      color: #e7ec56; }\n    main .container .fa-sass {\n      color: #de2196; }\n    main .container .fa-react {\n      color: #3dd8fa; }\n    main .container .fa-angular {\n      color: #ee002c; }\n    main .container .fa-github {\n      color: #353434; }\n    main .container .fa-gulp {\n      color: #fb0047; }\n    main .container .fa-npm {\n      color: #d80035; }\n\narticle {\n  display: flex;\n  justify-content: center;\n  height: 2200px; }\n  article .container {\n    width: 600px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    article .container h3 {\n      font-size: 80px; }\n    article .container h4 {\n      font-size: 40px;\n      margin: 40px; }\n    article .container img {\n      height: 850px;\n      width: 600px; }\n\nfooter {\n  display: flex;\n  justify-content: center;\n  background-color: #353434;\n  color: #f6f1ed; }\n  footer .container {\n    width: 600px;\n    display: flex;\n    flex-direction: column;\n    align-items: center; }\n    footer .container h5 {\n      font-size: 80px; }\n    footer .container p {\n      padding: 20px; }\n", ""]);
 
 // exports
 
