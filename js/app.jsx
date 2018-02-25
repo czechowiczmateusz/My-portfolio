@@ -28,6 +28,7 @@ class App extends React.Component {
                     <div className="container">
                         <h2>Technologies</h2>
                         <hr width="50%" />
+                        <div className="technologies">
                         <i className="fab fa-html5 fa-10x" ></i>
                         <i className="fab fa-css3-alt fa-10x"></i>
                         <i className="fab fa-js-square fa-10x"></i>
@@ -37,6 +38,7 @@ class App extends React.Component {
                         <i className="fab fa-github fa-10x"></i>
                         <i className="fab fa-gulp fa-10x"></i>
                         <i className="fab fa-npm fa-10x"></i>
+                        </div>
                     </div>
                 </main>
                 <article>
