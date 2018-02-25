@@ -9,7 +9,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  height: 800px;
   width: auto;
   align-items: flex-start;
   color: #CD7213;
@@ -67,7 +67,10 @@ header {
 main {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 1000px;
+  @media only screen and (min-width: 790px){
+      height: 1500px;
+  }
   .container {
     width: 600px;
     display: flex;
