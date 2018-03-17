@@ -10097,6 +10097,7 @@ var App = function (_React$Component) {
     _createClass(App, [{
         key: "render",
         value: function render() {
+            AOS.init();
             return _react2.default.createElement(
                 "div",
                 null,
@@ -10179,15 +10180,51 @@ var App = function (_React$Component) {
                         _react2.default.createElement(
                             "div",
                             { className: "technologies" },
-                            _react2.default.createElement("i", { className: "fab fa-html5 fa-10x" }),
-                            _react2.default.createElement("i", { className: "fab fa-css3-alt fa-10x" }),
-                            _react2.default.createElement("i", { className: "fab fa-js-square fa-10x" }),
-                            _react2.default.createElement("i", { className: "fab fa-sass fa-10x" }),
-                            _react2.default.createElement("i", { className: "fab fa-react fa-10x" }),
-                            _react2.default.createElement("i", { className: "fab fa-angular fa-10x" }),
-                            _react2.default.createElement("i", { className: "fab fa-github fa-10x" }),
-                            _react2.default.createElement("i", { className: "fab fa-gulp fa-10x" }),
-                            _react2.default.createElement("i", { className: "fab fa-npm fa-10x" })
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-html5 fa-10x" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-css3-alt fa-10x" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-js-square fa-10x" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-sass fa-10x" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-react fa-10x" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-angular fa-10x" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-github fa-10x" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-gulp fa-10x" })
+                            ),
+                            _react2.default.createElement(
+                                "div",
+                                { "data-aos": "fade-down" },
+                                _react2.default.createElement("i", { className: "fab fa-npm fa-10x" })
+                            )
                         )
                     )
                 ),
@@ -10208,19 +10245,19 @@ var App = function (_React$Component) {
                             null,
                             "Film-search-app"
                         ),
-                        _react2.default.createElement("div", { className: "first_project" }),
+                        _react2.default.createElement("div", { "data-aos": "zoom-in", className: "first_project" }),
                         _react2.default.createElement(
                             "h4",
                             null,
                             "Tomorrowland-page"
                         ),
-                        _react2.default.createElement("div", { className: "second_project" }),
+                        _react2.default.createElement("div", { "data-aos": "zoom-in", className: "second_project" }),
                         _react2.default.createElement(
                             "h4",
                             null,
                             "Sit-on-chair"
                         ),
-                        _react2.default.createElement("div", { className: "third_project" })
+                        _react2.default.createElement("div", { "data-aos": "zoom-in", className: "third_project" })
                     )
                 ),
                 _react2.default.createElement(

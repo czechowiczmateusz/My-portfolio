@@ -4,6 +4,7 @@ require('.././styles/style.scss');
 
 class App extends React.Component {
     render(){
+        AOS.init();
         return (
             <div>
                 <header>
@@ -29,15 +30,15 @@ class App extends React.Component {
                         <h2>Technologies</h2>
                         <hr width="50%" />
                         <div className="technologies">
-                        <i className="fab fa-html5 fa-10x" ></i>
-                        <i className="fab fa-css3-alt fa-10x"></i>
-                        <i className="fab fa-js-square fa-10x"></i>
-                        <i className="fab fa-sass fa-10x"></i>
-                        <i className="fab fa-react fa-10x"></i>
-                        <i className="fab fa-angular fa-10x"></i>
-                        <i className="fab fa-github fa-10x"></i>
-                        <i className="fab fa-gulp fa-10x"></i>
-                        <i className="fab fa-npm fa-10x"></i>
+                            <div data-aos="fade-down"><i className="fab fa-html5 fa-10x" ></i></div>
+                            <div data-aos="fade-down"><i className="fab fa-css3-alt fa-10x"></i></div>
+                            <div data-aos="fade-down"><i className="fab fa-js-square fa-10x"></i></div>
+                            <div data-aos="fade-down"><i className="fab fa-sass fa-10x"></i></div>
+                            <div data-aos="fade-down"><i className="fab fa-react fa-10x"></i></div>
+                            <div data-aos="fade-down"><i className="fab fa-angular fa-10x"></i></div>
+                            <div data-aos="fade-down"><i className="fab fa-github fa-10x"></i></div>
+                            <div data-aos="fade-down"><i className="fab fa-gulp fa-10x"></i></div>
+                            <div data-aos="fade-down"><i className="fab fa-npm fa-10x"></i></div>
                         </div>
                     </div>
                 </main>
@@ -46,11 +47,11 @@ class App extends React.Component {
                         <h3>Projects</h3>
                         <hr width="50%" />
                         <h4>Film-search-app</h4>
-                        <div className="first_project"></div>
+                        <div data-aos="zoom-in" className="first_project"></div>
                         <h4>Tomorrowland-page</h4>
-                        <div className="second_project"></div>
+                        <div data-aos="zoom-in" className="second_project"></div>
                         <h4>Sit-on-chair</h4>
-                        <div className="third_project"></div>
+                        <div data-aos="zoom-in" className="third_project"></div>
                     </div>
                 </article>
                 <footer>
