@@ -30,15 +30,15 @@ class App extends React.Component {
                         <h2>Technologies</h2>
                         <hr width="50%" />
                         <div className="technologies">
-                            <div data-aos="fade-down"><i className="fab fa-html5 fa-10x" ></i></div>
-                            <div data-aos="fade-down"><i className="fab fa-css3-alt fa-10x"></i></div>
-                            <div data-aos="fade-down"><i className="fab fa-js-square fa-10x"></i></div>
-                            <div data-aos="fade-down"><i className="fab fa-sass fa-10x"></i></div>
-                            <div data-aos="fade-down"><i className="fab fa-react fa-10x"></i></div>
-                            <div data-aos="fade-down"><i className="fab fa-angular fa-10x"></i></div>
-                            <div data-aos="fade-down"><i className="fab fa-github fa-10x"></i></div>
-                            <div data-aos="fade-down"><i className="fab fa-gulp fa-10x"></i></div>
-                            <div data-aos="fade-down"><i className="fab fa-npm fa-10x"></i></div>
+                            <div><i className="fab fa-html5 fa-10x" ></i></div>
+                            <div><i className="fab fa-css3-alt fa-10x"></i></div>
+                            <div><i className="fab fa-js-square fa-10x"></i></div>
+                            <div><i className="fab fa-sass fa-10x"></i></div>
+                            <div><i className="fab fa-react fa-10x"></i></div>
+                            <div><i className="fab fa-angular fa-10x"></i></div>
+                            <div><i className="fab fa-github fa-10x"></i></div>
+                            <div><i className="fab fa-gulp fa-10x"></i></div>
+                            <div><i className="fab fa-npm fa-10x"></i></div>
                         </div>
                     </div>
                 </main>
@@ -47,10 +47,13 @@ class App extends React.Component {
                         <h3>Projects</h3>
                         <hr width="50%" />
                         <h4>Film-search-app</h4>
+                        <a target="_blank" href="https://github.com/czechowiczmateusz/Film-search-app"><i className="fab fa-github fa-10x"></i></a>
                         <div data-aos="zoom-in" className="first_project"></div>
                         <h4>Tomorrowland-page</h4>
+                        <a target="_blank" href="https://github.com/czechowiczmateusz/Tomorrowland-page"><i className="fab fa-github fa-10x"></i></a>
                         <div data-aos="zoom-in" className="second_project"></div>
                         <h4>Sit-on-chair</h4>
+                        <a target="_blank" href="https://github.com/czechowiczmateusz/Sit-on-chair"><i className="fab fa-github fa-10x"></i></a>
                         <div data-aos="zoom-in" className="third_project"></div>
                     </div>
                 </article>
