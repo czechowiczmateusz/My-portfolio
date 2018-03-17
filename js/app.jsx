@@ -46,7 +46,7 @@ class App extends React.Component {
                         <h3>Projects</h3>
                         <hr width="50%" />
                         <h4>Film-search-app</h4>
-                        <img src="./styles/images/film-search-app.png" />
+                        <div className="first_project"></div>
                         <h4>Tomorrowland-page</h4>
                         <img src="./styles/images/tomorrowland-page.png" alt=""/>
                     </div>
