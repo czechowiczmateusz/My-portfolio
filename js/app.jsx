@@ -21,7 +21,7 @@ class App extends React.Component {
                         <div className="about">
                             <h1>About me</h1>
                             <hr width="50%" />
-                            <p>My name is Mateusz Czechowicz. I'm looking for a job as Junior Frontend Developer. I finished a course of programming JavaScript: React in Coder's Lab (<a target="_blank" href="https://coderslab.pl/en/javascript-developer-react">https://coderslab.pl/en/javascript-developer-react</a>) - the school for developers. I'm fascinated with programming so I'd like to further develop in this field, I'm looking for a job where I can deepen and expand my knowledge in JavaScript and surrounding technologies. Currently I'm learning AngularJS.</p>
+                            <p>My name is Mateusz Czechowicz. I'm looking for a job as Junior Front-end Developer. I finished a course of programming JavaScript: React in Coder's Lab (<a target="_blank" href="https://coderslab.pl/en/javascript-developer-react">https://coderslab.pl/en/javascript-developer-react</a>) - the school for developers. I'm fascinated with programming so I'd like to further develop in this field, I'm looking for a job where I can deepen and expand my knowledge in JavaScript and surrounding technologies. Currently I'm learning AngularJS.</p>
                         </div>
                     </div>
                 </header>
