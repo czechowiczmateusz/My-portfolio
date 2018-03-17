@@ -169,7 +169,7 @@ main {
 article {
   display: flex;
   justify-content: center;
-  height: 2200px;
+  height: 3000px;
   .container {
     width: 95vw;
     display: flex;
@@ -182,39 +182,50 @@ article {
       font-size: 40px;
       margin: 40px;
     }
-    img {
-      height: 850px;
-      width: 600px;
+    .first_project {
+      background-image: url("./images/film-search-app.png");
+      height: 1000px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+    .second_project {
+      background-image: url("./images/tomorrowland-page.png");
+      height: 1000px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+    .third_project {
+      background-image: url("./images/sit-on-chair.png");
+      height: 1000px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+    @media only screen and (max-width: $breakpoint-large-screen) {
+      .first_project, .second_project, .third_project {
+        height: 800px;
+      }
+    }
+    @media only screen and (max-width: $breakpoint-screen) {
+      .first_project, .second_project, .third_project {
+        height: 500px;
+      }
     }
   }
 }
 
-.first_project {
-  background-image: url("./images/film-search-app.png");
-  height: 1000px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-.second_project {
-  background-image: url("./images/tomorrowland-page.png");
-  height: 1000px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-@media only screen and (max-width: $breakpoint-large-screen) {
-  .first_project, .second_project {
-    height: 800px;
-  }
-}
 @media only screen and (max-width: $breakpoint-screen) {
-  .first_project, .second_project {
-    height: 500px;
+  article {
+    height: 2000px;
   }
 }
+
+
 
 footer {
   display: flex;

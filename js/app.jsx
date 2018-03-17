@@ -50,6 +50,7 @@ class App extends React.Component {
                         <h4>Tomorrowland-page</h4>
                         <div className="second_project"></div>
                         <h4>Sit-on-chair</h4>
+                        <div className="third_project"></div>
                     </div>
                 </article>
                 <footer>
