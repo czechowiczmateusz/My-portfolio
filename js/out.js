@@ -10239,7 +10239,7 @@ var App = function (_React$Component) {
                             null,
                             "Projects"
                         ),
-                        _react2.default.createElement("hr", { width: "50%" }),
+                        _react2.default.createElement("hr", { width: "40%" }),
                         _react2.default.createElement(
                             "h4",
                             null,

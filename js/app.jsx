@@ -45,7 +45,7 @@ class App extends React.Component {
                 <article>
                     <div className="container">
                         <h3>Projects</h3>
-                        <hr width="50%" />
+                        <hr width="40%" />
                         <h4>Film-search-app</h4>
                         <a target="_blank" href="https://github.com/czechowiczmateusz/Film-search-app"><i className="fab fa-github fa-10x"></i></a>
                         <div data-aos="zoom-in" className="first_project"></div>
