@@ -25,11 +25,11 @@ class App extends React.Component {
                         </div>
                     </div>
                 </header>
-                <main>
+                <section className="technologies">
                     <div className="container">
                         <h2>Technologies</h2>
                         <hr width="50%" />
-                        <div className="technologies">
+                        <div className="list">
                             <div><i className="fab fa-html5 fa-10x" ></i></div>
                             <div><i className="fab fa-css3-alt fa-10x"></i></div>
                             <div><i className="fab fa-js-square fa-10x"></i></div>
@@ -41,7 +41,7 @@ class App extends React.Component {
                             <div><i className="fab fa-npm fa-10x"></i></div>
                         </div>
                     </div>
-                </main>
+                </section>
                 <article>
                     <div className="container">
                         <h3>Projects</h3>

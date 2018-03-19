@@ -81,7 +81,7 @@ header {
   }
 }
 
-main {
+.technologies {
   display: flex;
   justify-content: center;
   height: 1000px;
@@ -106,7 +106,7 @@ main {
     hr {
       margin-bottom: 40px;
     }
-    div.technologies {
+    .list {
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -180,6 +180,7 @@ article {
     align-items: center;
     h3 {
       font-size: 80px;
+      text-transform: uppercase;
     }
     h4 {
       font-size: 40px;
@@ -251,6 +252,7 @@ footer {
     }
     h5 {
       font-size: 80px;
+      text-transform: uppercase;
     }
     p {
       padding: 20px;
