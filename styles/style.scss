@@ -4,11 +4,15 @@ $breakpoint-tablet: 790px;
 $breakpoint-screen: 1400px;
 $breakpoint-large-screen: 1600px;
 $hover-color: #EFB509;
+@font-face {
+  font-family: Nanum;
+  src: url(./fonts/NanumBrushScript-Regular.ttf);
+}
 
 body {
   background-color: #f6f1ed;
   color: #3b3a36;
-  font-family: 'Nanum Brush Script', cursive;
+  font-family: Nanum;
 }
 
 header {
@@ -113,57 +117,51 @@ header {
       align-items: center;
       .fa-html5 {
         color: #f21422;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
       }
       .fa-css3-alt {
         color: #5a00e0;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
       }
       .fa-js-square {
         color: #e7ec56;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
       }
       .fa-sass {
         color: #de2196;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
       }
       .fa-react {
         color: #3dd8fa;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
       }
       .fa-angular {
         color: #ee002c;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
       }
       .fa-github {
         color: #353434;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
       }
       .fa-gulp {
         color: #fb0047;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
       }
       .fa-npm {
         color: #d80035;
-        :hover {
-          color: $hover-color;
-        }
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
+      }
+      div:hover .fa-html5, div:hover .fa-css3-alt, div:hover .fa-js-square, div:hover .fa-sass, div:hover .fa-react, div:hover .fa-angular, div:hover .fa-github, div:hover .fa-gulp, div:hover .fa-npm {
+        color: $hover-color;
       }
     }
   }
