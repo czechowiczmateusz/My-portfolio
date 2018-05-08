@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 require('.././styles/style.scss');
+require('aos/src/sass/aos.scss');
 import AOS from 'aos';
 
 class App extends React.Component {
