@@ -23,7 +23,7 @@ class App extends React.Component {
                         <div className="about">
                             <h1>About me</h1>
                             <hr width="50%" />
-                            <p>My name is Mateusz Czechowicz. I'm looking for a job as Junior Front-end Developer. I finished a course of programming JavaScript: React in Coder's Lab (<a target="_blank" href="https://coderslab.pl/en/javascript-developer-react">https://coderslab.pl/en/javascript-developer-react</a>) - the school for developers. I'm fascinated with programming so I'd like to further develop in this field, I'm looking for a job where I can deepen and expand my knowledge in JavaScript and surrounding technologies. Currently I'm learning AngularJS.</p>
+                            <p>My name is Mateusz Czechowicz. I'm looking for a job as Junior Front-end Developer. I finished a course of programming JavaScript: React in Coder's Lab (<a target="_blank" href="https://coderslab.pl/en/javascript-developer-react">https://coderslab.pl/en/javascript-developer-react</a>) - the school for developers. I'm fascinated with programming so I'd like to further develop in this field, I'm looking for a job where I can deepen and expand my knowledge in JavaScript and surrounding technologies. Currently I'm learning React Native and AngularJS.</p>
                         </div>
                     </div>
                 </header>
@@ -44,7 +44,16 @@ class App extends React.Component {
                         </div>
                     </div>
                 </section>
-                <article>
+                <section className="commercial-projects">
+                    <div className="container">
+                        <h3>Commercial project</h3>
+                        <hr width="40%" />
+                        <h4>Supme</h4>
+                        <a target="_blank" href="https://www.supme.io/"><i className="fas fa-globe fa-10x"></i></a>
+                        <div data-aos="zoom-in" className="first_project"></div>
+                    </div>
+                </section>
+                <section className="projects">
                     <div className="container">
                         <h3>Projects</h3>
                         <hr width="40%" />
@@ -58,7 +67,7 @@ class App extends React.Component {
                         <a target="_blank" href="https://github.com/czechowiczmateusz/Sit-on-chair"><i className="fab fa-github fa-10x"></i></a>
                         <div data-aos="zoom-in" className="third_project"></div>
                     </div>
-                </article>
+                </section>
                 <footer>
                     <div className="container">
                         <h5>Contact</h5>
