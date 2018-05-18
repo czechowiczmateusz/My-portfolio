@@ -38,6 +38,7 @@ class App extends React.Component {
                             <div><i className="fab fa-sass fa-10x"></i></div>
                             <div><i className="fab fa-react fa-10x"></i></div>
                             <div><i className="fab fa-angular fa-10x"></i></div>
+                            <div><i className="fab fa-vuejs fa-10x"></i></div>
                             <div><i className="fab fa-github fa-10x"></i></div>
                             <div><i className="fab fa-gulp fa-10x"></i></div>
                             <div><i className="fab fa-npm fa-10x"></i></div>

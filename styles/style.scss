@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: center;
   height: 800px;
-  width: auto;
+  width: 100%;
   align-items: flex-start;
   color: #CD7213;
   @media (min-width: $breakpoint-large-screen) {
@@ -88,10 +88,7 @@ header {
 .technologies {
   display: flex;
   justify-content: center;
-  height: 1000px;
-  @media (min-width: $breakpoint-tablet){
-    height: 1600px;
-  }
+  height: 1800px;
   .container {
     width: 600px;
     display: flex;
@@ -145,6 +142,11 @@ header {
         transition: 300ms;
         transition-timing-function: ease-in-out;
       }
+      .fa-vuejs {
+        color: #00ca85;
+        transition: 300ms;
+        transition-timing-function: ease-in-out;
+      }
       .fa-github {
         color: #353434;
         transition: 300ms;
@@ -160,7 +162,7 @@ header {
         transition: 300ms;
         transition-timing-function: ease-in-out;
       }
-      div:hover .fa-html5, div:hover .fa-css3-alt, div:hover .fa-js-square, div:hover .fa-sass, div:hover .fa-react, div:hover .fa-angular, div:hover .fa-github, div:hover .fa-gulp, div:hover .fa-npm {
+      div:hover .fa-html5, div:hover .fa-css3-alt, div:hover .fa-js-square, div:hover .fa-sass, div:hover .fa-react, div:hover .fa-angular, div:hover .fa-vuejs, div:hover .fa-github, div:hover .fa-gulp, div:hover .fa-npm {
         color: $hover-color;
       }
     }
@@ -179,6 +181,7 @@ header {
     h3 {
       font-size: 80px;
       text-transform: uppercase;
+      text-align: center;
     }
     h4 {
       font-size: 40px;
@@ -212,6 +215,9 @@ header {
   display: flex;
   justify-content: center;
   height: 3000px;
+  @media only screen and (max-width: $breakpoint-tablet) {
+    height: 2000px;
+  }
   .container {
     width: 95vw;
     display: flex;
